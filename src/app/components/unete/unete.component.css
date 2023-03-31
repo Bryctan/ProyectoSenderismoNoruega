@@ -1,0 +1,72 @@
+.fondo { 
+    width: 100%;
+    height: 950px;   
+    background: url(/assets/img/noruega.gif) no-repeat 0px 0px;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.capa {
+    height: 950px; 
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.inscribirse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    position: absolute;
+    z-index: 4;
+    left: 630px;
+    top: 350px;
+}
+
+.fondito {
+    width: 600px;
+    height: 530px;
+    background-color: black;
+    z-index: 3;
+    position: absolute;
+    left: 580px;
+    top: 320px;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+
+input{
+    width: 350px;
+    text-align: center;
+    border: 3px solid mediumblue;
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    border-radius: 7px;
+}
+
+h2 {
+    font-family: 'Bangers', cursive;
+    color: white;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+label {
+    font-family: 'Bangers', cursive;
+    color: white;
+    padding: 8px 0px 8px 0px;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    width: 120px;
+    font-family: 'Bangers', cursive;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+    

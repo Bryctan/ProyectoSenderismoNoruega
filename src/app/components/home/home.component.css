@@ -1,0 +1,318 @@
+
+h1 {
+    color: white;
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+}
+
+
+.boton-leer {
+    text-decoration: none;
+    color: white;
+    background: #fde854;
+    padding: 10px 40px 10px 40px;
+    letter-spacing: 1px;
+    font-family: 'Bangers', cursive;
+    font-size: 22px;
+}
+
+
+.box1 {
+    background: url(/assets/img/Principal.jpeg) no-repeat 0px -149px;
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo {
+height: 300px;
+}
+.redes {
+    display: flex;
+    margin: 24px 0px 40px 0px;
+    gap: 30px;
+}
+
+.redes ul {
+    list-style: none;
+    padding: 0px;
+}
+
+
+.box2 {
+    background-color: black;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+}
+
+.nosotros {
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nosotros h2 {
+    font-family: 'Bangers', cursive;
+    color: white;
+    font-size: 47px;
+}
+
+
+.nosotros p{
+    color: white;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.imgs img{
+    height: 380px;
+    width: 340px;
+}
+
+.box3 {
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box3 h3{
+    color: white;
+    padding-top: 115px;
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+}
+
+.imgs-mapa img{
+    height: 380px;
+    width: 340px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 115px;
+}
+
+
+.box4 {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.text2 {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+
+.text2 h3 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+}
+
+.text2 p{
+    color: white;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+}
+
+.box5 {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    background-color: black;
+    padding-bottom: 85px;
+}
+
+.fiordo:hover{
+    box-shadow: 10px 10px 14px 2px aqua;
+}
+
+
+.fiordo {
+    display: flex;
+    flex-direction: column;
+    width: 505px;
+    gap: 28px;
+
+}
+
+.fiordo p{
+    color: white;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+}
+
+.box6 {
+    height: 300px;
+    background: url(/assets/img/Eclipse.jpeg)no-repeat 0px -336px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 h4{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.box6 p{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+}
+
+.fa-facebook:before {
+    content: "\f09a";
+    color: white;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    color: white;
+}
+.fa-twitter:before {
+    content: "\f099";
+    color: white;
+}
+
+.fa-whatsapp:before {
+    content: "\f232";
+    color: white;
+}
+
+.fa-github:before {
+    content: "\f09b";
+    color: white;
+}
+
+
+@media screen and (max-width:992px) {
+    .box1 {
+        background: url(/assets/img/Principal.jpeg) no-repeat -232px -101px;
+        height: 500px;
+    }
+    .logo img {
+        height: 180px;
+    }
+
+    .titulo {
+        height: 165px;
+    }
+
+    h1 {
+        font-size: 2.50rem;
+        letter-spacing: 2px;
+    }
+
+    .box2 {
+        flex-flow: wrap;
+        padding: 100px 0px 0px 0px;
+        gap: 50px;
+        height: auto;
+    }
+    .container {
+        padding-bottom: 55px;
+    }
+    .text2 {
+        height: 300px;
+    }
+
+    .box5 {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .box6
+    {
+        background: url(/assets/img/Eclipse.jpeg)no-repeat -133px -196px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .box1 {
+        background: url(/assets/img/Principal.jpeg) no-repeat -385px -107px;
+        height: 500px;
+    }
+
+    .logo img {
+        height: 115px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    .boton-leer {
+        font-size: 15px;
+    }
+
+    .box3 h3 {
+        font-size: 2.75rem;
+    }
+
+    .text2 {
+        height: 400px;
+        width: 380px;
+    }
+
+    .fiordo {
+        width: 400px;
+    }
+
+    .box6 h4 {
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+
+    .text3 {
+        width: 393px;
+    }
+
+    .box6 {
+        background: url(/assets/img/Eclipse.jpeg)no-repeat -300px -226px;
+    }
+   
+}
+
+@media screen and (max-width:480px) {
+    
+  
+}

@@ -1,0 +1,32 @@
+footer {
+    background-color: #383434;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+}
+
+@media screen and (max-width:992px) {
+    footer {
+        height: 25vh;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    footer p {
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+
+    footer {
+        height: 25vh;
+    }
+}
