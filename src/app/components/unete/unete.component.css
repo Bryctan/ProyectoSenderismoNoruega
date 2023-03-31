@@ -23,7 +23,7 @@
     width: 500px;
     position: absolute;
     z-index: 4;
-    left: 630px;
+    left: 450px;
     top: 350px;
 }
 
@@ -33,7 +33,7 @@
     background-color: black;
     z-index: 3;
     position: absolute;
-    left: 580px;
+    left: 398px;
     top: 320px;
     opacity: 0.5;
     border-radius: 15px;

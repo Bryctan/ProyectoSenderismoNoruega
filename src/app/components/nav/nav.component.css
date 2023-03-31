@@ -1,6 +1,6 @@
 header {
     background-color: black;
-    height: 10vh;
+    height: 12vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -9,7 +9,7 @@ header {
 nav {
     display: flex;
     justify-content: space-evenly;
-    gap: 300px;
+    gap: 270px;
 }
 
 nav ul {
